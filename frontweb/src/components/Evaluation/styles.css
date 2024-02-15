@@ -1,0 +1,48 @@
+.evaluation-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 157px;
+  margin: 20px 10px 0px 0px;
+  border-radius: 0%;
+}
+
+.evaluation-input {
+  font-size: 16px;
+}
+
+.evaluation-submit {
+  margin-top: 17px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+  .evaluation-input {
+    width: 496px;
+    margin: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .evaluation-input {
+    width: 660px;
+  }
+
+ 
+}
+
+@media (min-width: 992px) {
+  .evaluation-input {
+    width: 862px;
+  }
+
+ 
+}
+
+@media (min-width: 1200px) {
+  .evaluation-input {
+    width: 1077px;
+    margin: 24px;
+  }
+}
